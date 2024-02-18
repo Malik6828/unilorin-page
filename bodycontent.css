@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+.body-content{
+    display: flex;
+    flex-shrink: 0;
+    gap: 10px;
+    
+    
+}
+
+
+.body-content{
+    min-width: 700px;
+}
+.body-head{
+    border-bottom: 3px solid #29166f;
+}
+.reg-instruction{
+    color: #29166f;
+}
+.instruction-return{
+    text-align: center;
+    text-decoration: underline;
+    color: #333;
+}
+.instruction{
+    color: #29166f;
+}
+.click{
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+.click-button{
+    text-decoration: none;
+}
+.procedure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ 
+#r-reg{
+    margin-right: 20px;
+} 
+.student-email{
+    text-align: center;
+    display: block;
+    
+}
+#student-email{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.Dress-code{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.Dress-code-div{
+    text-align: center;
+}
+.thank-you{
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 30px;
+    background-color: #29166f;
+    
+}
+.footer-text{
+    color: white;
+    text-align: center;
+}
