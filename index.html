@@ -6,6 +6,7 @@
     <title>UnilorinPortal</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="side-bar.css">
+    <!-- <link rel="stylesheet" href="side-barr.css"> -->
 </head>
 <body>
     <div class="head-container">
@@ -17,13 +18,13 @@
                 <nav>
                     <ul>
                         <li><a href="Home">HOME</a></li>
-                        <li class="dropdown"><a class="dropbtn" href="Help-Desk">HELP DESK</a>
+                        <li class="dropdown"><a class="dropbtn" href="#">HELP DESK</a>
                             <div class="dropdown-content">
                         <a href="#">Contact Information</a>
                         <a href="#">Help Desk</a>
                             </div>
                         </li>
-                        <li class="dropdown"><a class="dropbtn" href="Reg">REGISTRATION</a>
+                        <li class="dropdown"><a class="dropbtn" href="#">REGISTRATION</a>
                         <div class="dropdown-content">
                             <a href="#">Returning Students</a>
                             <a href="#">Fresh Student</a>
@@ -43,12 +44,40 @@
     <div class="whole-body">
         <div class="side-bar">
             <ul class="side-menu">
-                <li class="side-list"><a class="a" href=""> <span>&check;</span> ADMISSION</a></li>
-                <li class="side-list"><a class="a" href=""><span>&check;</span>REGISTRATION INSTRUCTION</a></li>
-                <li class="side-list"><a class="a" href=""><span>&check;</span>SERVICE DESK</a></li>
-                <li class="side-list"><a class="a" href=""><span>&check;</span>NEWS/FAQss </a></li>
-            </ul>
+                <li class="side-list" ><a class="a" id="side-list"  href="#"> <span>&check;</span> ADMISSION <span class="arrow1">&Uarr;</span></a>
+                    <div class="div-side">
+                    <a class="sub-sidebar" id="sub-sidebar" href="#">Pre-Admission Screening Instruction</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar1" href="#">Pre-Admission Screening Registration</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar2" href="#">Admission Screenin Login</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar2" href="#">Inter University Transfer Students Registration</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar2" href="#">International Student Application</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar2" href="#">Application login </a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar2" href="#">Remedial Registration for POST UTME </a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar20" href="#">International Student Registration  </a><br>
 
+                    </div>
+                </li>
+                <li class="side-list2"><a class="a" id="side-list2" href="#"><span>&check;</span>REGISTRATION INSTRUCTION <span class="arrow">&Uarr;</span></a>
+                    <div class="div-side1 div-side">
+                    <a class="sub-sidebar" id="sub-sidebar3"  href="#">Returning Students </a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar4" href="#">Fresh Students</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar5" href="#">Current Charges</a><hr>
+                    <a class="sub-sidebar" id="sub-sidebar5" href="#">Login</a>
+                    </div>
+                </li>
+                <li class="side-list3"><a class="a"  id="side-list3" href="#"><span>&check;</span>SERVICE DESK <span class="arrow">&Uarr;</span></a>
+                    <div class="div-side3 div-side">
+                    <a class="sub-sidebar" id="sub-sidebar6" href="#">Contact Information</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar7" href="#">Help Desk</a><br>
+                    </div>  
+                </li>
+                <li class="side-list4"><a class="a" id="side-list4" href="#"><span>&check;</span>NEWS/FAQs <span class="arrow">&Uarr;</span></a>
+                    <div class="div-side4 div-side">
+                    <a class="sub-sidebar" id="sub-sidebar9" href="#">News</a><br><hr>
+                    <a class="sub-sidebar" id="sub-sidebar10" href="#">FAQs</a><br>
+                    </div>
+                </li>
+            </ul>
         </div>
         <div class="body-content">
                 <div class="body-head">
@@ -92,5 +121,6 @@
                     <p class="footer-text">2023, University of Ilorin. Ilorin. All right reserved | Developed by OLAK</p>
                 </div>
     </div>
+    <script src="myscript.js"></script>
 </body>
 </html>

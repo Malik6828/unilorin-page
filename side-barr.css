@@ -1,0 +1,45 @@
+.side-bar{
+    width: 24%;
+    height: 600px;
+    background-color: rgba(179, 179, 233, 0.3);
+    border: 1px solid #77aff0;
+    z-index: 0;
+}
+.body-content{
+    width: ;
+    flex: 1; 
+}
+.whole-body{
+    display: flex;
+    gap: 10px;
+    
+}
+.side-menu{
+    list-style-type: none;
+    padding: 0px;
+    overflow: auto;
+}
+.side-list, .a  {
+    color: rgb(1, 1, 37);
+    display: block;
+    text-decoration: none;
+    padding-left: 0px; 
+}
+span{
+    color: green;
+    padding-left: 0px;
+}
+.sub-sidebar{
+    
+    color: blue;
+    padding: 0px;
+    background-color: white;    
+}
+.div-side{
+    display: none;
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+    line-height: 40px;
+    padding-left: 10px;
+}
